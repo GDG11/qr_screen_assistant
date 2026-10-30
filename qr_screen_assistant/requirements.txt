@@ -1,0 +1,12 @@
+# 屏幕区域二维码实时捕获助手
+# 已在 Windows 11 64 位 + Python 3.12 下验证。
+# 推荐 Python 3.10–3.13；以下版本都提供 Windows x64 轮子。
+#
+# 注意：不要同时安装 opencv-python 和 opencv-contrib-python。
+# 如需可选的 WeChatQRCode 备用解码器，请阅读 README 中对应的可选章节。
+
+PySide6==6.8.3
+mss==10.0.0
+opencv-python==4.11.0.86
+Pillow==11.2.1
+numpy==2.2.6
